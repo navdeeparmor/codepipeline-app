@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: '2019-10-21'
+Transform: AWS::Serverless-2019-11-21
+Description: >
+  Sample SAM Template for SamLambdaFunction
+
+Globals:
+  Function:
+    Timeout: 10
+
+Resources:
+  CodepipelineLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./CodepipelineLambda
+      Handler: CodepipelineLambda::CodepipelineLambda.Function::FunctionHandler
+      Runtime: dotnetcore2.1
+      Environment:
+        Variables:
+          PARAM1: VALUE
+      Events:
+        Test:
+          Type: Api
+          Properties:
+            Path: /test
+            Method: get
+
+Outputs:
+  SamApi:
+    Description: "API Gateway endpoint URL for test stage for an empty function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Codepipeline/test/"
+  CodepipelineLambda:
+    Description: "SamLambda Function ARN"
+    Value: !GetAtt CodepipelineLambda.Arn
+  SamLambdaFunctionIamRole:
+    Description: "Implicit IAM Role created for an empty function"
+    Value: !GetAtt SamLambdaFunctionRole.Arn

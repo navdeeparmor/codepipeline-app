@@ -1,0 +1,11 @@
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\bin\Debug\netcoreapp2.1\CodepipelineLambda.deps.json
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\bin\Debug\netcoreapp2.1\CodepipelineLambda.runtimeconfig.json
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\bin\Debug\netcoreapp2.1\CodepipelineLambda.runtimeconfig.dev.json
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\bin\Debug\netcoreapp2.1\CodepipelineLambda.dll
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.csprojAssemblyReference.cache
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.csproj.CoreCompileInputs.cache
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.AssemblyInfoInputs.cache
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.AssemblyInfo.cs
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\bin\Debug\netcoreapp2.1\CodepipelineLambda.pdb
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.dll
+C:\Armor\codepipeline\codepipeline-app\CodepipelineLambda\CodepipelineLambda\obj\Debug\netcoreapp2.1\CodepipelineLambda.pdb
